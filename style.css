@@ -39,7 +39,7 @@ img{
 }
 
 .nav-links{
-    display:flex;
+    display: inline-flex;
     list-style:none;
     gap:50px;
 }
@@ -374,7 +374,7 @@ img{
 
 @media (max-width:768px){
     .nav{flex-direction:column;gap:20px;padding:30px}
-    .nav-links{flex-direction:column;gap:15px}
+    .nav-links{flex-direction:raw;gap:15px}
     .hero-text h1{font-size:34px}
     .why,
     .materials,
@@ -398,3 +398,4 @@ img{
     .reviews .review-card img{width:100%;height:auto;}
     .materials-images img{width:100%;height:auto;}
 }
+
